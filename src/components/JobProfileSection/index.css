@@ -1,0 +1,135 @@
+.job-section-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.job-section-left {
+  width: 24%;
+}
+.job-section-details {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.job-search-container {
+  width: 450px;
+  height: 35px;
+  display: flex;
+  border: 2px solid #7e858e;
+  border-radius: 3px;
+}
+
+.search-input {
+  width: 100%;
+  background-color: transparent;
+  color: #7e858e;
+  height: 30px;
+  padding: 10px;
+  border-right: 0px;
+  border-bottom: 0px;
+  outline: none;
+}
+
+.search-btn {
+  background-color: #272727;
+  width: 50px;
+  padding: 0px;
+  cursor: pointer;
+}
+.search-icon {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.job-list-container {
+  padding: 0px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.no-job-logo {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.no-job-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+  line-height: 0.5;
+}
+
+.no-job-title {
+  font-size: 45px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.no-job-para {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #7e858e;
+  font-weight: 500;
+}
+
+.job-failure-btn {
+  background-color: #4f46e5;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding: 10px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 10%;
+  border-radius: 5px;
+}
+
+.mobile-search-container {
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .job-section-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .mobile-search-container {
+    display: flex;
+    margin-bottom: 30px;
+  }
+
+  .pc-search-container {
+    display: none;
+  }
+
+  .job-section-details {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .no-job-logo {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .no-job-title {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+
+  .job-failure-btn {
+    background-color: #4f46e5;
+    color: #ffffff;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 20%;
+    border-radius: 5px;
+  }
+}

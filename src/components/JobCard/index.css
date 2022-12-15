@@ -1,0 +1,191 @@
+.job-card-container {
+  background-color: #272727;
+  margin: 25px;
+  margin-top: 30px;
+  margin-left: 0px;
+  padding: 20px;
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 20px;
+}
+.card-job-top {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.card-company-logo {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.card-company-container {
+  line-height: 0.5;
+}
+
+.card-company-title {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.company-rating {
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-middle {
+  margin-top: 25px;
+  line-height: 0.5;
+}
+.job-middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.job-company-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+}
+
+.card-company-location {
+  color: #ffffff;
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+.card-location-para {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.job-company-salary {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.job-hr-line {
+  border: 2px solid #64748b;
+  width: 100%;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.job-description-title {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 430;
+  margin-top: 28px;
+}
+
+.job-bio {
+  font-size: 15px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 25px;
+  line-height: 1.6;
+}
+
+.jobs-links {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .job-card-container {
+    background-color: #272727;
+    margin: 25px;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-top: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .card-job-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .card-company-logo {
+    width: 15%;
+    margin-right: 15px;
+  }
+
+  .company-container {
+    width: 100%;
+  }
+
+  .card-company-title {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .card-company-location {
+    color: #ffffff;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+
+  .card-location-para {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    margin-right: 5px;
+  }
+
+  .company-rating {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .rating-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .job-company-salary {
+    font-size: 20px;
+    font-family: 'Roboto';
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .job-company-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+  }
+}
